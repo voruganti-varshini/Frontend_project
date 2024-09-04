@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Websote Title</title>
+</head>
+<body>
+    <div class="container">
+        <h1>heading 1</h1>
+        <h2>heading 2</h2>
+        <h3>heading 3</h3>
+        <h4>heading 4</h4>
+        <h5>heading 5</h5>
+        <h6>heading 6</h6>
+        <p>This is para</p>
+        <button> Click me</button>
+        <br/>
+        <a href="/https://codegnan.com">codegnan</a>
+        <img src="./codegnanlogo.jpeg"/>
+        <hr/>
+        <div>Division:Div is a block level element,adding new line and 100% width</div>
+        <span>span:span is a inline element content background space only</span>
+        <br/><br/>
+        <Heading>header semantic elements</Heading>
+        <section>body semantic elements</section>
+        <footer>footer semantic element</footer>
+    </div>
+</body>
+</html>
