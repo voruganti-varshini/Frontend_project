@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form page</title>
+</head>
+<body>
+    <form>
+        <h1>student details form</h1>
+        <label>name:</label>
+        <input type="text" 
+        placeholder="enter your name"/>
+        <br/><br/>
+        <label>date of birth</label>
+        <input type="date"/>
+        <br/><br/>
+        <label>age</label>
+        <input type="number"
+        placeholder="enter your age"/>
+        <br/><br/>
+        <label>college name</label>
+        <input type="text"
+        placeholder="enter your college name"/>
+        <br/><br/>
+        <label>mobile no</no:</label>
+        <input type="number"
+        placeholder="enter phone number"/>
+        <br/><br/>
+        
+        <fieldset style="width:20">
+         <legend>gender:</legend>
+         <input type="radio" id="male" name="gender" value="male"/>
+         <label for="male">male</label><br/>
+         <input type="radio" id="female" name="gender" value="female"/>
+         <label for="female">female</label><br/>
+         
+         <fieldset>
+         <br/><br/>
+        
+          <fieldset style="width:30%;">
+             <legend>skills </legend>
+             <input type="check box" name="skills" id="html"value="html"/>
+             <label>html</label><br/>
+             <input type="check box" name="skills" id="css" value="css"/>
+             <label>css</label><br/>
+             <input type="check box" name="skills" id="javascript" value="javascript"/>
+             <label>javascript</label><br/>
+             <input type="check box" name="skills" id="python" value="python"/>
+             <label>python</label><br/>
+           </fieldset>
+           <br/><br/>
+
+            <label for="role">select role:</label>
+            <select id="role" name="role">
+            <label for="role">select role:</label>
+            <select id="role" name="role">
+            <option value="student">student</option>
+            <option value="employee">employee</option></select><br/>
+            </br/>
+
+               <label>resume:</label> 
+               <input type="file" id="resume" name="resume" accept="pdf",doc,docx/>
+              <br/><br/>
+
+             <label for="password">password:</label>
+             <input type="password" id="password" name="password"/><br/><br/>
+            
+              <label for="note">note:</label><br/>
+              <textarea id="note" name="note" rows="4" cols="50"></textarea><br/> 
+              
+              <input type="submit" value="submit" />
+        </form>
+    </div>
+    
+</body>
+</html>
